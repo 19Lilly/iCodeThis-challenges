@@ -1,6 +1,7 @@
 What is iCodeThis?
 
-![what-is-iCodeThis](https://github.com/19Lilly/iCodeThis-challenges/assets/117945803/95e1894e-4dce-47f1-a858-cd32e05dfe4d)
+![what-is-iCodeThis](https://github.com/19Lilly/iCodeThis-challenges/assets/117945803/307c3ae3-d324-4e95-8d22-3aa3e55ef140)
+
 
 Looking for a new way to level up your frontend skills? Are you stuck in tutorial hell?
 
