@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Poppins:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="main img unsplash"
+      />
+      <div class="wrapper">
+        <div class="progress-container">
+          <p class="percent-booked upper">
+            <span><span class="percent">45</span>%</span> booked
+          </p>
+          <svg width="120" height="120">
+            <circle r="50" cx="60" cy="60" class="track"></circle>
+            <circle r="50" cx="60" cy="60" class="progress"></circle>
+          </svg>
+        </div>
+        <h1 class="upper">Building a successful e-business</h1>
+        <p>
+          Learn how using computer and internet technology can facilitate a
+          business to successfully build an online e-business.
+        </p>
+        <h2 class="upper">time remaining</h2>
+        <div class="countdown-container">
+          <div class="days">
+            <p id="days" class="box">2</p>
+            <p>Days</p>
+          </div>
+          <div class="hours">
+            <p id="hours" class="box">14</p>
+            <p>Hours</p>
+          </div>
+          <div class="minutes">
+            <p id="minutes" class="box">53</p>
+            <p>Minutes</p>
+          </div>
+          <div class="seconds">
+            <p id="seconds" class="box">26</p>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </div>
+      <button class="take-course upper">take course</button>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
