@@ -1,4 +1,4 @@
-**What is iCodeThis?
+What is iCodeThis?
 
 ![what-is-iCodeThis](https://github.com/19Lilly/iCodeThis-challenges/assets/117945803/95e1894e-4dce-47f1-a858-cd32e05dfe4d)
 
