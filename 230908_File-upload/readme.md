@@ -9,3 +9,7 @@ expect output:
 
 The goal is to make the design similar to expectation. You can make simple UI design without functionality or add some interactivity with JS. 
 
+My solution online preview: 
+
+https://icodethis.com/submissions/35817
+
