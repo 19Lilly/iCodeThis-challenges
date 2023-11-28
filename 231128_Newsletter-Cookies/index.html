@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-[#f4f5f9] flex justify-center items-center gap-4 flex-col min-h-screen my-4"
+  >
+    <div
+      class="bg-[#34363d] text-white/80 p-8 shadow-lg rounded-xl grid grid-cols-3 gap-10 w-[min(500px,98%)] max-[420px]:grid-cols-2"
+    >
+      <img
+        src="https://github.com/19Lilly/pictures/blob/main/cookies_164659.png?raw=true"
+        alt="cookies"
+        class="cookies w-[8rem] col-span-1 row-span-2 max-[420px]:col-span-2 justify-self-center"
+      />
+      <p class="col-span-2">
+        We use cookies to ensure that we give you the best experience on our
+        website. Read our
+        <a
+          href="#"
+          class="text-[#da774b] border-b border-b-transparent hover:text-[#d45832] hover:border-b-[#d45832]"
+          >Privacy Statement</a
+        >
+      </p>
+      <div
+        class="btn-container col-span-2 justify-items-end flex justify-center gap-4"
+      >
+        <button
+          class="btn rounded py-2 bg-[#20222c] font-bold flex-1 hover:bg-red-600"
+        >
+          I disagree
+        </button>
+        <button
+          class="btn rounded py-2 bg-[#20222c] font-bold flex-1 hover:bg-green-600"
+        >
+          I agree
+        </button>
+      </div>
+    </div>
+    <div
+      class="newsletter shadow-lg p-8 pb-2 rounded-xl grid grid-cols-3 max-[580px]:grid-cols-2 max-[580px]:pb-8 gap-10 w-[min(600px,98%)] bg-white"
+    >
+      <img
+        src="https://github.com/19Lilly/pictures/blob/main/mailbox_1832633.png?raw=true"
+        alt="mailbox"
+        class="col-span-1 row-span-2 -scale-x-100 max-[580px]:col-span-2 max-[580px]:w-[10rem] max-[580px]:justify-self-center"
+      />
+      <div class="text col-span-2 self-center space-y-4">
+        <h3 class="text-2xl font-bold">Join our Newsletter</h3>
+        <p>
+          Get the latest articles, freebies, jobs and special offers delivered
+          directly to your inbox.
+        </p>
+        <label for="email" class="flex gap-4 max-[420px]:flex-wrap">
+          <input
+            type="email"
+            placeholder="Email adress"
+            class="p-2 border rounded border-[#818286] max-[580px]:w-full"
+          />
+          <button
+            class="bg-[#34363d] rounded text-white py-1 px-6 font-bold hover:bg-[#dc6068] max-[420px]:w-full max-[420px]:py-3"
+          >
+            Subscribe
+          </button>
+        </label>
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
